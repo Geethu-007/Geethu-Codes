@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <style>
+            body
+            {
+                background-image:url('/home/geethika/Pictures/U3.jpg') ; 
+                background-repeat: no-repeat; 
+                background-size: cover; 
+                background-attachment:fixed ;
+                color: black;
+                font-style: italic;
+                margin-top: 90px;
+            }
+        </style>
+    </head>
+    <body> 
+        <h1 align="Center" style="color:white ;"><i><u>Course Registration Form!</u></i></h1><br>
+        <form>
+            <table align="Center" cellpadding="10px" style="border: solid white 2px; backdrop-filter: blur(12px);"> 
+                <tr>
+                    <td><label for="PN">Full Name : </label></td>
+                    <td><input type="text" id="PN" placeholder="First Name" required="required">  <input type="text" id="PN" placeholder="Last Name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="a">Age : </label></td>
+                    <td><input type="text" id="a" maxlength="2" required="required"></td>
+                </tr>
+                <tr>
+                    <td><label for="g"> Choose Domain : </label></td>
+                    <td><select id="a" >
+                        <option>Cosmology</option>
+                        <option>Spectroscopy</option>
+                        <option>Photomerty</option>
+                        <option selected>Astero Seismology</option>
+                        <option>Helio Seismology</option>
+                        <option>Helio Physics</option>
+                        <option>Solar Physics</option>
+                        <option>Astrometry</option>
+                        <option>Planetology</option>
+                        <option>Exoplanetology</option>
+                        <option>Areology</option>
+                        <option>Selenography</option>
+                        <option>Exo Geology</option>
+                        <option>Planetary Geology</option>
+                        <option>ExoBiology</option>
+                        <option>Astroecology</option>
+                        <option>Astro Chemistry</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="g">Gender : </label></td>
+                    <td>
+                        Male : <input type="radio" name="Gender">
+                        female : <input type="radio" name="Gender">
+                        Other : <input type="radio" name="Gender">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="P">Parent Details : </td>
+                    <td><input tpe="text" id="P" required="required" placeholder="Father Name">  <input tpe="text" id="P" required="required" placeholder="Mother Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="M">Mobile Number : </label></td>
+                    <td><select id="M" required="required">
+                            <option>+91</option>
+                            <option>86</option>
+                            <option>53</option>
+                            <option>33</option>
+                            <option>299</option>
+                            <option selected>1</option>
+                            <option>44</option>
+                        </select>  
+                        <input type="textarea" id="M" required="required" placeholder="1234567890" maxlength="10">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="e">Email : </td>
+                    <td><input type="email" id="e" required="required" placeholder="ex@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit" onclick="document.location='resp.html'"></td>
+                    <td><input type="reset" value="Reset"></td>
+                </tr>
+            </table>
+            </form>
+    </body>
+</html>
